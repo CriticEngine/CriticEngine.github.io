@@ -1,4 +1,4 @@
-ws = new WebSocket("ws://213.226.114.177:9001/ws")
+ws = new WebSocket("wss://play.levshx.com/ws")
 
 ws.onopen = function () {
     alert("Соединение установлено.");
